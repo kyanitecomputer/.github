@@ -1,0 +1,54 @@
+name: Bug report
+description: Report a defect in a Kyanite project
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filing a report. Do **not** include secrets or sensitive
+        data. For security vulnerabilities, use private reporting instead (see
+        SECURITY.md).
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      description: Which commit, tag, or release are you running?
+      placeholder: "e.g. main @ abc1234"
+    validations:
+      required: true
+  - type: input
+    id: target
+    attributes:
+      label: Hardware / target
+      description: Board, SoC, or platform, if relevant.
+      placeholder: "e.g. ASPEED AST2700 DCSCM, MilkV Vega, host x86_64"
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug and its impact.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps, commands, or code to trigger the bug.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / output
+      description: Relevant logs, serial output, or backtraces.
+      render: shell
+    validations:
+      required: false
