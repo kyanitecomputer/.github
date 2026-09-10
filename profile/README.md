@@ -30,5 +30,5 @@ management surfaces around them. Most of it is pure Go on
 
 - **Go modules** import under the vanity path `src.kyanite.computer/<repo>`.
 - **Licensing:** everything is dual-licensed under **Apache-2.0 OR MIT**.
-- **Contributing & security:** see [CONTRIBUTING](../CONTRIBUTING.md) and
-  [SECURITY](../SECURITY.md). These org-wide defaults apply to every repository.
+- **Contributing & security:** see [CONTRIBUTING](https://github.com/kyanitecomputer/.github/blob/main/CONTRIBUTING.md) and
+  [SECURITY](https://github.com/kyanitecomputer/.github/blob/main/SECURITY.md). These org-wide defaults apply to every repository.
