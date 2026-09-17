@@ -23,8 +23,8 @@ management surfaces around them. Most of it is pure Go on
 | [aspeed-go](https://github.com/kyanitecomputer/aspeed-go) | ASPEED SoC register package and HAL drivers, zero-dependency | Go (TamaGo) |
 | [aspeed-data](https://github.com/kyanitecomputer/aspeed-data) | ASPEED register data and the generator feeding `aspeed-go` | Go |
 | [aspeed-rs](https://github.com/kyanitecomputer/aspeed-rs) | ASPEED HAL crates (`embassy-aspeed`, `aspeed-mmio`) | Rust (Embassy) |
-| [aspeed-mcu-runtime](https://github.com/kyanitecomputer/aspeed-mcu-runtime) | BootMCU / Root-of-Trust firmware for AST2700 auxiliary cores | Rust (Embassy) |
-| [ast-cf-runtime](https://github.com/kyanitecomputer/ast-cf-runtime) | SDK/runtime for the ASPEED ColdFire (m68k) coprocessor | C |
+| [mcu-runtime](https://github.com/kyanitecomputer/mcu-runtime) | BootMCU / Root-of-Trust firmware for AST2700 auxiliary cores | Rust (Embassy) |
+| [aspeed-cf-runtime](https://github.com/kyanitecomputer/aspeed-cf-runtime) | SDK/runtime for the ASPEED ColdFire (m68k) coprocessor | C |
 
 ## Conventions
 
