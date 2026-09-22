@@ -19,7 +19,7 @@ management surfaces around them. Most of it is pure Go on
 | [scree](https://github.com/kyanitecomputer/scree) | Embedded block + journal store backing NATS JetStream persistence | Go |
 | [schema](https://github.com/kyanitecomputer/schema) | Shared API and message schema for the stack | Protobuf |
 | [facet](https://github.com/kyanitecomputer/facet) | Management web UI | TypeScript (SvelteKit + Tauri) |
-| [embedded-go-hal](https://github.com/kyanitecomputer/embedded-go-hal) | Dependency-free Go HAL interface definitions (`src.kyanite.computer/hal`) | Go |
+| [embedded-go-hal](https://github.com/kyanitecomputer/embedded-go-hal) | Dependency-free Go HAL interface definitions (`src.kyanite.computer/embedded-go-hal`) | Go |
 | [aspeed-go](https://github.com/kyanitecomputer/aspeed-go) | ASPEED SoC register package and HAL drivers, zero-dependency | Go (TamaGo) |
 | [aspeed-data](https://github.com/kyanitecomputer/aspeed-data) | ASPEED register data and the generator feeding `aspeed-go` | Go |
 | [aspeed-rs](https://github.com/kyanitecomputer/aspeed-rs) | ASPEED HAL crates (`embassy-aspeed`, `aspeed-mmio`) | Rust (Embassy) |
